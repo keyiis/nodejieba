@@ -157,6 +157,14 @@ http://cppjieba-webdemo.herokuapp.com/
 + [version 2.2.2 Can't build on Win 10 x64](https://github.com/yanyiwu/nodejieba/issues/64)
 + [nodejieba 在win7下的安装问题，有进展了](http://www.jianshu.com/p/d541c8585479)
 + [win10 npm安装报错](https://github.com/yanyiwu/nodejieba/issues/70)
+*一点补充*
+windows编译模块产生错误大致有以下几个原因：
+1、c++编译器环境也就是vs的版本。
+2、python 这个错误的可能性不大。
+3、node-gyp 是否安装了多个版本，比如一个全局，一个装项目下。
+4、nodejs版本和被编译模块需要的版本是否匹配。
+5、有些模块编译需要上墙外的网站下载头文件。
+
 
 ## 客服
 
